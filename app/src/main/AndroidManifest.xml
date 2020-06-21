@@ -16,8 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pharmacy_price_order"></activity>
-        <activity android:name=".view_prescription_upload" />
+        <activity android:name=".pharmacy_order_in_progress"></activity>
+        <activity android:name=".pharmacy_price_order" />
         <activity android:name=".order_request_page" />
         <activity android:name=".Buy_Requests" />
         <activity android:name=".dashboard_notif" />

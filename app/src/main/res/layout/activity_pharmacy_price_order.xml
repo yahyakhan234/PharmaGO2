@@ -209,7 +209,7 @@
                 app:counterMaxLength="4"
                 android:minWidth="70dp"
                 android:textColorHint="#000"
-                app:hintTextColor="#000"
+                app:hintTextColor="#000" 
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -333,7 +333,7 @@
         android:layout_height="wrap_content"
         android:text="Process order"
         android:padding="10dp"
-        android:id="@+id/accept_order"
+        android:id="@+id/process_order"
         android:textSize="20sp"
         android:textColor="#fff"
         android:layout_centerHorizontal="true"
