@@ -22,6 +22,7 @@
     android:text="Welcome Back, Please Login to Proceed"
     android:transitionName="logo_text"
     android:textSize="40sp"
+    android:textColor="#000"
     android:fontFamily="monospace"
     />
 
@@ -36,6 +37,8 @@
             android:id="@+id/material_spinner"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:textColor="#000"
+            android:textColorHint="#000"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="Select User Type"
 
@@ -49,17 +52,22 @@
             android:layout_height="wrap_content"
             android:id="@+id/username"
             android:hint="Username"
+            android:textColor="#000"
+            android:textColorHint="#000"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                />
         </com.google.android.material.textfield.TextInputLayout>
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/password"
             android:hint="Password"
+            android:textColor="#000"
+            android:textColorHint="#000"
             app:passwordToggleEnabled="true"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 

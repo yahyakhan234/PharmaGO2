@@ -45,7 +45,7 @@ public class splash_screen extends AppCompatActivity {
             @Override
             public void run(){
                 //Call next screen
-                Intent intent=new Intent(splash_screen.this,dashboard_notif.class);
+                Intent intent=new Intent(splash_screen.this,login_Screen.class);
                 // Attach all the elements those you want to animate in design
                 Pair[] pairs=new Pair[2];pairs[0]=new Pair<View, String>(splashLogo,"logo_image");
                 pairs[1]=new Pair<View, String>(splashText,"logo_text");
