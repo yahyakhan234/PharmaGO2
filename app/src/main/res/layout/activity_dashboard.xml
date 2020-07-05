@@ -129,7 +129,7 @@
                 android:layout_weight="0.5">
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/test1"
                     android:layout_width="150dp"
                     android:layout_height="match_parent"
                     android:background="@drawable/md_transparent"
@@ -142,7 +142,7 @@
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/home_icon"
+                    android:src="@drawable/labtest"
                     android:scaleType="fitStart"
                     android:layout_centerInParent="true"/>
             </RelativeLayout>
@@ -152,7 +152,7 @@
                 android:layout_weight="0.5">
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/test2"
                     android:layout_width="150dp"
                     android:layout_height="match_parent"
                     android:background="@drawable/md_transparent"
@@ -165,7 +165,7 @@
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/home_icon"
+                    android:src="@drawable/labtest"
                     android:scaleType="fitStart"
                     android:layout_centerInParent="true"/>
             </RelativeLayout>
@@ -176,7 +176,7 @@
                 android:layout_weight="0.5">
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/test3"
                     android:layout_width="150dp"
                     android:layout_height="match_parent"
                     android:background="@drawable/md_transparent"
@@ -189,7 +189,7 @@
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/home_icon"
+                    android:src="@drawable/labtest"
                     android:scaleType="fitStart"
                     android:layout_centerInParent="true"/>
             </RelativeLayout>
@@ -201,7 +201,7 @@
                 android:layout_weight="0.5">
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/test4"
                     android:layout_width="150dp"
                     android:layout_height="match_parent"
                     android:background="@drawable/md_transparent"
@@ -214,7 +214,7 @@
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:src="@drawable/home_icon"
+                    android:src="@drawable/labtest"
                     android:scaleType="fitStart"
                     android:layout_centerInParent="true"/>
             </RelativeLayout>
