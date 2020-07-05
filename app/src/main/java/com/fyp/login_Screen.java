@@ -56,7 +56,7 @@ public class login_Screen extends AppCompatActivity {
             case "Laboratory":
             {
 
-                        startActivity(new Intent(login_Screen.this, dashboard.class));
+                        startActivity(new Intent(login_Screen.this, dashboard_lab.class));
                         finish();
                         break;
 

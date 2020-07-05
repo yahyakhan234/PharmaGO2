@@ -29,14 +29,16 @@ public class customer_order_processed extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 new AlertDialog.Builder(customer_order_processed.this)
-                        .setTitle("Delete entry")
-                        .setMessage("Are you sure you want to delete this entry?")
+                        .setTitle("Cancel Order")
+                        .setMessage("Are you sure you want to cancel this order?")
 
                         // Specifying a listener allows you to take an action before dismissing the dialog.
                         // The dialog is automatically dismissed when a dialog button is clicked.
                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 // Continue with delete operation
+                                startActivity(new Intent(customer_order_processed.this, dashboard.class));
+
                             }
                         })
 

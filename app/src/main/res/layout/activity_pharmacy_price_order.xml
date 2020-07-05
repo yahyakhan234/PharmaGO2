@@ -209,7 +209,7 @@
                 app:counterMaxLength="4"
                 android:minWidth="70dp"
                 android:textColorHint="#000"
-                app:hintTextColor="#000" 
+                app:hintTextColor="#000"
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -347,15 +347,15 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/primaryTheme"
      >
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:layout_alignParentBottom="true"
             android:layout_marginTop="1dp"
+            android:background="@color/primaryTheme"
             app:itemIconTint="#fff"
             app:itemTextColor="#fff"
             app:menu="@menu/bottom_navigation_menu" />

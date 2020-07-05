@@ -37,8 +37,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Buy Order From XYZ"
-            android:textSize="30sp"
+            android:text="Buy Request From XYZ"
+            android:textSize="25sp"
             android:textAlignment="center"
             android:textColor="@android:color/background_dark"
             android:padding="20dp"
@@ -228,7 +228,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:background="@color/primaryTheme"
 
         >
 
@@ -236,7 +235,8 @@
             android:id="@+id/bottom_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:layout_alignParentBottom="true"
+            android:background="@color/primaryTheme"
             android:layout_marginTop="20dp"
             app:itemIconTint="#fff"
             app:itemTextColor="#fff"
