@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".dashboard">
+    tools:context=".dashboard"
+    android:background="@drawable/background">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -33,13 +34,13 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="150dp">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/blackback"
-            android:scaleType="fitXY"
+            android:src="@drawable/just_for_you"
+            android:scaleType="fitStart"
             />
 
     </RelativeLayout>
@@ -53,9 +54,10 @@
             android:id="@+id/upload_prescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:text="Upload Prescription"
-            android:textSize="30sp"
-            android:padding="20dp"
+            android:textSize="20sp"
+            android:padding="10dp"
 
             style="@android:style/Widget.Material.Button.Colored"
             tools:targetApi="m"
@@ -66,13 +68,14 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="30dp">
+        android:padding="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:text="OR"
+            android:textColor="@color/black"
             android:layout_centerHorizontal="true"
             />
 
@@ -86,30 +89,162 @@
         <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/custom_request"
             android:text="POST CUSTOM REQUEST"
-            android:textSize="30sp"
-            android:padding="19dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:padding="10dp"
             android:layout_centerHorizontal="true"
             style="@android:style/Widget.Material.Button.Colored"
             tools:targetApi="m"
             app:backgroundTint="#00a599"/>
     </RelativeLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="20dp"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#00a599">
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Select a Lab Test below to make a laboratory reservation"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:justificationMode="inter_word"
+        />
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/md_transparent"
+
+                    android:gravity="center|bottom"
+
+                    android:text="Cholestrol Test"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/home_icon"
+                    android:scaleType="fitStart"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/md_transparent"
+
+                    android:gravity="center|bottom"
+
+                    android:text="Corona Virus Test"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/home_icon"
+                    android:scaleType="fitStart"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/md_transparent"
+
+                    android:gravity="center|bottom"
+
+                    android:text="Blood Sugar Test"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/home_icon"
+                    android:scaleType="fitStart"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/md_transparent"
+
+                    android:gravity="center|bottom"
+
+                    android:text="Blood CP"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/home_icon"
+                    android:scaleType="fitStart"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/home_icon"
+                android:scaleType="fitStart"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:layout_gravity="bottom"
             app:itemIconTint="#fff"
             app:itemTextColor="#fff"
+            android:background="@color/primaryTheme"
             app:menu="@menu/bottom_navigation_menu" />
 
 

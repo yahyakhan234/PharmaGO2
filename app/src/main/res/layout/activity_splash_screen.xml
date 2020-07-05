@@ -6,7 +6,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".splash_screen"
-android:background="@drawable/blackback">
+android:background="@color/white">
 
 
 <ImageView
@@ -35,7 +35,7 @@ android:background="@drawable/blackback">
     android:layout_marginBottom="101dp"
     android:transitionName="logo_text"
     android:text="PharmaGO"
-    android:textColor="@android:color/white"
+    android:textColor="@color/black"
     android:textSize="70sp"
     app:fontFamily="monospace"
     app:layout_constraintBottom_toBottomOf="parent"

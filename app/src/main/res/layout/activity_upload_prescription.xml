@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/background"
     tools:context=".upload_prescription">
 
     <ScrollView
@@ -69,10 +70,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
+
+                    android:textColorHint="@color/black"
+                    app:boxStrokeColor="@color/black"
                     android:hint="Add a Side Note">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
+
+                        app:hintTextColor="@color/black"
                         android:layout_height="wrap_content" />
                 </com.google.android.material.textfield.TextInputLayout>
 

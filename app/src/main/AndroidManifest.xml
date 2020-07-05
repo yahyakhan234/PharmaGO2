@@ -11,12 +11,15 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo_splash"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo_splash"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pharmacy_order_in_progress"></activity>
+        <activity android:name=".live_chat"></activity>
+        <activity android:name=".customer_order_processed" />
+        <activity android:name=".customer_custom_request" />
+        <activity android:name=".pharmacy_order_in_progress" />
         <activity android:name=".pharmacy_price_order" />
         <activity android:name=".order_request_page" />
         <activity android:name=".Buy_Requests" />
