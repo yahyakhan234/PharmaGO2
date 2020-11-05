@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,7 +17,7 @@ import com.tiper.MaterialSpinner;
 public class login_Screen extends AppCompatActivity {
 
     MaterialSpinner spinner2;
-    Button login_button;
+    Button login_button,register1;
     private static final String[] ITEMS = {"Patient", "Pharmacy", "Laboratory"};
 
     private ArrayAdapter<String> adapter;
@@ -29,13 +30,26 @@ public class login_Screen extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
+
         String selected_option;
         setContentView(R.layout.activity_login_screen);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_activated_1, ITEMS);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         final MaterialSpinner materialSpinner = findViewById(R.id.material_spinner);
+
         materialSpinner.setAdapter(adapter);
         login_button=findViewById(R.id.login_button);
+        register1=findViewById(R.id.register1);
+        register1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(login_Screen.this, signup.class));
+                finish();
+
+            } });
+
+
         login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

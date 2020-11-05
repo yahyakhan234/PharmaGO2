@@ -43,6 +43,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Capture From Camera"
+                    android:textColor="@color/white"
                     android:textSize="30sp"
                     android:padding="19dp"
                     android:layout_centerHorizontal="true"
@@ -79,6 +80,7 @@
                         android:layout_width="match_parent"
 
                         app:hintTextColor="@color/black"
+                        android:textColor="@color/black"
                         android:layout_height="wrap_content" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -94,7 +96,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:text="Proceed" />
+                    android:text="Proceed"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
 
 
             </RelativeLayout>

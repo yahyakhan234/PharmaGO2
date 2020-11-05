@@ -158,7 +158,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:background="@color/primaryTheme"
 
         >
 
@@ -167,6 +166,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/primaryTheme"
+            android:layout_alignParentBottom="true"
             android:layout_marginTop="20dp"
             app:itemIconTint="#fff"
             app:itemTextColor="#fff"

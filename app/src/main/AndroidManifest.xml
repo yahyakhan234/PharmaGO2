@@ -16,7 +16,12 @@
         android:roundIcon="@drawable/logo_splash"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".lab_order_in_progress"></activity>
+        <activity android:name=".signup"></activity>
+        <activity android:name=".pharmacy_prescription_upload" />
+        <activity android:name=".order_accepted_lab" />
+        <activity android:name=".searching_lab" />
+        <activity android:name=".customer_book_test" />
+        <activity android:name=".lab_order_in_progress" />
         <activity android:name=".lab_price_order" />
         <activity android:name=".order_request_page_lab" />
         <activity android:name=".buy_requests_lab" />

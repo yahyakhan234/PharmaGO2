@@ -18,11 +18,19 @@ public class Buy_Requests extends AppCompatActivity {
         setContentView(R.layout.activity_buy__requests);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        MaterialButton b2=findViewById(R.id.details);
         MaterialButton b1 = findViewById(R.id.details1);
-        b1.setOnClickListener(new View.OnClickListener() {
+        b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Buy_Requests.this, order_request_page.class));
+            }
+
+        });
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Buy_Requests.this, pharmacy_prescription_upload.class));
             }
 
         });
